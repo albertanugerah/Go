@@ -2,7 +2,7 @@ package main
 
 func main() {
 	// func printState di file state.go
-	printState()
+	// printState()
 
 	cards := deck{"Ace of Diamonds", newCard()}
 	// menambahkan nilai card

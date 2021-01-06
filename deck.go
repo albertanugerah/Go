@@ -9,11 +9,21 @@ type deck []string
 func newDeck() deck {
 	// inisialisasi kartu = deck
 	cards := deck{}
-}
 
-func (d deck) print() {
-	for i, card := range d {
-		fmt.Println(i, card)
+	jenisKartu := []string{"Sekop", "Hati", "Wajik"}
+	noKartu := []string{"As", "Dua", "Tiga", "Empat"}
+
+	for _, jenis := range jenisKartu {
+		for _, no := range noKartu {
+			fmt.Println(no, " ", jenis)
+		}
 	}
-
+	return cards
 }
+
+// func (d deck) print() {
+// 	for i, card := range d {
+// 		fmt.Println(i, card)
+// 	}
+
+// }
