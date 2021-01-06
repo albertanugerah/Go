@@ -1,12 +1,13 @@
 package main
 
 func main() {
-	// func printState di file state.go
-	// printState()
-
 	cards := newDeck()
 
-	deal(cards, 5)
+	// inisialisasi nilai (deck,deck)
+	hand, remainingCards := deal(cards, 5)
+
+	hand.print()
+	remainingCards.print()
 
 }
 
