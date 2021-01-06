@@ -6,8 +6,8 @@ func main() {
 
 	cards := newDeck()
 
-	// menambahkan nilai card
-	cards.print()
+	deal(cards, 5)
+
 }
 
 // func [newfunction]() [type_data]
