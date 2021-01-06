@@ -7,7 +7,8 @@ import "fmt"
 type deck []string
 
 func newDeck() deck {
-
+	// inisialisasi kartu = deck
+	cards := deck{}
 }
 
 func (d deck) print() {
