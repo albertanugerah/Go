@@ -5,9 +5,9 @@ func main() {
 	// printState()
 
 	cards := newDeck()
-	// menambahkan nilai card
 
-	// cards.print()
+	// menambahkan nilai card
+	cards.print()
 }
 
 // func [newfunction]() [type_data]
