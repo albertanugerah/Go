@@ -26,3 +26,9 @@ func (d deck) print() {
 		fmt.Println(i, card)
 	}
 }
+
+// membuat funsi deal() untuk pembagian 3 buah kartu
+//mengembalikan nilai kartu ditangan sebanyak 3 buah kartu, sisanya
+func deal(d deck, handSize int8) (deck, deck) {
+	return d[:handSize], d[handSize:]
+}
