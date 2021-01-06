@@ -7,7 +7,7 @@ func main() {
 	cards := deck{"Ace of Diamonds", newCard()}
 	// menambahkan nilai card
 	cards = append(cards, "Six of Spades")
-	cards.print()
+	// cards.print()
 }
 
 func newCard() string { // ketika di eksekusi, function mengembalikan tipe data
