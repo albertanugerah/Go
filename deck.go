@@ -1,13 +1,11 @@
 package main
 
-import "fmt"
-
 // create a new type of 'deck'
 // which is  a slice of strings
 type deck []string
 
 func newDeck() deck {
-	// inisialisasi kartu = deck
+	// inisialisasi kartu kosong
 	cards := deck{}
 
 	jenisKartu := []string{"Sekop", "Hati", "Wajik"}
@@ -15,7 +13,7 @@ func newDeck() deck {
 
 	for _, jenis := range jenisKartu {
 		for _, no := range noKartu {
-			fmt.Println(no, " ", jenis)
+			cards = append(cards, no+" dari "+jenis)
 		}
 	}
 	return cards

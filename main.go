@@ -4,14 +4,10 @@ func main() {
 	// func printState di file state.go
 	// printState()
 
-	cards := deck{"Ace of Diamonds", newCard()}
+	cards := newDeck()
 	// menambahkan nilai card
-	cards = append(cards, "Six of Spades")
-	// cards.print()
-}
 
-func newCard() string { // ketika di eksekusi, function mengembalikan tipe data
-	return "Five of Diamonds"
+	// cards.print()
 }
 
 // func [newfunction]() [type_data]
